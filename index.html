@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  
+
+
+<!--Navbar Inicial (CSS Bootstrap)-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="#">
+            <img src="img/favicon.ico" alt="" width="30" height="30" class="d-inline-block align-text-top">
+              Tutorial
+          </a>
+        </div>
+      </nav>
+<br>
+
+
+
+
+<!--Boas-vindas (CSS Bootstrap)-->
+<div class="alert alert-warning" role="alert">
+    <h3 style="text-align: center;">Bem-vindos ao tutorial de JavaScript!</h3>
+    <p style="text-align: center;">Veja as seguintes categorias do tutorial:</p>
+  </div>
+
+
+
+
+  <!--Divisão de categorias em links (CSS Boostrap: Direcionamento de página)-->
+  <div style="margin-right: 220px; margin-left: 220px;" class="list-group">
+    <a href="index.html" class="list-group-item list-group-item-action active" aria-current="true">
+      1. Introdução ao JavaScript   <----  (Você está aqui)
+    </a>
+    <a href="funcao.html" class="list-group-item list-group-item-action">2. Como o JavaScript funciona?</a>
+    <a href="code.html" class="list-group-item list-group-item-action">3. Códigos básicos</a>
+    <a href="biblio.html" class="list-group-item list-group-item-action">4. Bibliografia</a>
+  </div><br><br><br>
+
+
+
+  <!--Introdução ao JavaScript-->
+<h2 style="margin-left: 47px;">1. Introdução ao JavaScript</h2>
+<p style="margin-left: 85px; margin-right: 85px; font-size: large;">JavaScript é uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet. As funções de JavaScript podem melhorar a experiência do usuário durante a navegação em um site, como, por exemplo, desde a atualização do feed na página da mídia social até a exibição de animações e mapas interativos. Como uma linguagem de script do lado do cliente, ele é uma das tecnologias principais da World Wide Web. Por exemplo, ao navegar na Internet, é possível visualizar a qualquer momento um carrossel de imagens, um menu suspenso “clicar para visualizar” ou mesmo mudar dinamicamente as cores dos elementos de uma página da Web. Tudo isso graças ao JavaScript.
+</p>
+<p style="margin-left: 85px; margin-right: 85px; font-size: large;">Anteriormente, as páginas da Web eram estáticas como páginas em um livro. Uma página estática exibia basicamente informações em um layout fixo e não fazia tudo que esperamos de um site moderno hoje em dia. O JavaScript surgiu como uma tecnologia do lado do navegador para tornar as aplicações Web mais dinâmicas. Ao usar JavaScript, os navegadores passaram a ser capazes de responder a interações do usuário e alterar o layout do conteúdo na página.</p>
+
+
+<!--Imagens e carrosel da introdução-->
+<div style="width: 520px; height: 520px; margin-left: 85px ;" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/code1.avif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/code2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/code3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--Link para próximas partes do tutorial-->
+<nav style="margin-left: 120px;" aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+    </li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="index.html">1</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="funcao.html">2</a></li>
+    
+    <li class="page-item"><a class="page-link" href="code.html">3</a></li>
+    <li class="page-item">
+
+      <li class="page-item"><a class="page-link" href="biblio.html">4</a></li>
+    <li class="page-item">
+      <a class="page-link" href="funcao.html">Próxima</a>
+    </li>
+  </ul>
+</nav>
+
+  
+      
+
+</body>
+</html>

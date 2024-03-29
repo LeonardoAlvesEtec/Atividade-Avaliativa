@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  
+
+
+<!--Navbar Inicial (CSS Bootstrap)-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="#">
+            <img src="img/favicon.ico" alt="" width="30" height="30" class="d-inline-block align-text-top">
+              Tutorial
+          </a>
+        </div>
+      </nav>
+<br>
+
+<!--Divisão de categorias em links (CSS Boostrap: Direcionamento de página)-->
+<div style="margin-right: 220px; margin-left: 220px;" class="list-group">
+    
+    <a href="index.html" class="list-group-item list-group-item-action">1. Introdução ao JavaScript   </a>
+    <a href="funcao.html" class="list-group-item list-group-item-action active" aria-current="true">
+        2. Como o JavaScript funciona?    <----  (Você está aqui)
+      </a>
+    <a href="code.html" class="list-group-item list-group-item-action">3. Códigos básicos</a>
+    <a href="#" class="list-group-item list-group-item-action">4. Bibliografia</a>
+  </div><br><br><br>
+
+  <!-- Sobre como o JS funciona-->
+  <p><h3>Como o JavaScript funciona?</h3>
+    Todas as linguagens de programação funcionam traduzindo sintaxe escrita de modo semelhante ao idioma inglês em código de máquina, que é executado pelo sistema operacional. O JavaScript é amplamente categorizado como uma linguagem de criação de scripts ou uma linguagem interpretada. O código em JavaScript é interpretado, ou seja, é traduzido diretamente no código de linguagem de máquina subjacente por um mecanismo de JavaScript. Em outras linguagens de programação, um compilador compila todo o código em linguagem de máquina durante uma etapa distinta. Portanto, todas as linguagens de criação de script são linguagens de programação, mas nem todas as linguagens de programação são linguagens de criação de script.
+    <br><br><br>
+    <h3>O mecanismo JavaScript </h3>
+    Um mecanismo JavaScript é um programa de computador que executa código em JavaScript. Os primeiros mecanismos JavaScript eram simples interpretadores, mas todos os mecanismos modernos usam compilação just-in-time ou em tempo de execução para melhorar a performance.
+    <br><br><br>
+    <h3>JavaScript do lado do cliente </h3>
+      O termo JavaScript do lado do cliente refere-se à maneira como o JavaScript funciona em seu navegador. Nesse caso, o mecanismo JavaScript está integrado ao código do navegador. Todos os principais navegadores acompanham os próprios mecanismos JavaScript integrados. <br>
+      Os desenvolvedores de aplicações Web escrevem código em JavaScript com diferentes funções associadas a diversos eventos, como um clique no botão ou focalização do mouse. Essas funções promovem mudanças nos códigos em HTML e CSS. <br><br>
+    
+    Veja abaixo uma síntese do funcionamento do JavaScript do lado do cliente:
+    <br><br>
+    1.   O navegador carrega uma página da Web quando você a acessa.
+    <br><br>
+    2.   Durante o carregamento, o navegador converte a página e todos os seus elementos, como botões, rótulos e caixas de menu suspenso, em uma estrutura de dados chamada Modelo de Objeto de Documento (DOM).
+    <br><br>
+    3.   O mecanismo JavaScript do navegador converte o código JavaScript em código de bytes. Esse código é um intermediário entre a sintaxe em JavaScript e a máquina.
+    <br><br>
+    4.   Eventos diferentes, como o clique do mouse em um botão, acionam a execução do bloco de código associado em JavaScript. Em seguida, o mecanismo interpreta o código de bytes e faz alterações no DOM.
+    <br><br>
+    5.   O navegador exibe o novo DOM.
+    <br><br>
+    <h3>JavaScript do lado do servidor</h3>
+    O termo JavaScript do lado do servidor se refere ao uso da linguagem de codificação na lógica de back-end do servidor. Nesse caso, o mecanismo JavaScript está diretamente no servidor. Uma função de JavaScript do lado do servidor pode acessar o banco de dados, realizar diferentes operações lógicas e responder a diversos eventos acionados pelo sistema operacional do servidor. A principal vantagem da criação de script do lado do servidor é que você pode promover um alto nível de personalização na resposta do site com base em seus requisitos, seus direitos de acesso e nas solicitações de informação recebidas do site.
+    <br><br><br>
+    <h3>Arquitetura do lado do servidor vs. do lado do cliente</h3>
+    A palavra dinâmica descreve o JavaScript do lado do cliente e do servidor. O comportamento dinâmico é a capacidade de atualizar a exibição da página para gerar conteúdo novo conforme necessário. A diferença entre o JavaScript do lado do cliente e do lado do servidor está na forma como esses dois modos geram conteúdo novo. O código do lado do servidor gera novo conteúdo dinamicamente usando lógica de aplicativo e modificando os dados recebidos do banco de dados. Por outro lado, o JavaScript do lado do cliente gera novo conteúdo de maneira dinâmica diretamente no navegador usando lógica da interface com o usuário e modificando o conteúdo da página que já está no cliente. O significado tem uma diferença sutil nos dois contextos, mas está relacionado. Ambas as abordagens funcionam em sinergia para melhorar a experiência do usuário.
+    <br>
+    Além da implementação em recursos dinâmicos, outra diferença entre os dois usos do JavaScript está nos recursos aos quais o código tem acesso. Do lado do cliente, o navegador controla o ambiente de tempo de execução do JavaScript. O código só pode acessar os recursos que o navegador permite. Por exemplo, ele não pode gravar conteúdo em seu disco rígido a menos que você clique em um botão de download. Por outro lado, as funções do lado do servidor podem acessar todos os recursos da máquina do servidor conforme a necessidade.</p>
+
+<br><br><br>
+
+<!--Link para próximas partes do tutorial-->
+<nav style="margin-left: 120px;" aria-label="...">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="index.html">Anterior</a>
+      </li>
+      
+      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+      
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="funcao.html">2</a>
+      </li>
+
+      <li class="page-item"><a class="page-link" href="code.html">3</a></li>
+      <li class="page-item">
+  
+        <li class="page-item"><a class="page-link" href="biblio.html">4</a></li>
+      <li class="page-item">
+        <a class="page-link" href="code.html">Próxima</a>
+      </li>
+    </ul>
+  </nav>
